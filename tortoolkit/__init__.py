@@ -15,7 +15,7 @@ from .core.database_handle import TtkUpload,TorToolkitDB,TtkTorrents, UserDB
 from .core.varholder import VarHolder
 
 logging.info("Database created")
-upload_db = TtkUpload()
+#upload_db = TtkUpload()
 var_db = TorToolkitDB()
 tor_db = TtkTorrents()
 user_db = UserDB()
